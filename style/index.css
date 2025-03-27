@@ -1,0 +1,49 @@
+.outfit-font {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  body{
+    font-family: "Outfit", sans-serif;
+  }
+  .con{
+    width: 95%;
+    margin: auto;
+  }
+
+
+  button{
+    width: 45%;
+  }
+  .price{
+    
+    color: rgba(238, 87, 51, 1);
+  }
+
+  
+  .order{
+    background-color: rgba(238, 87, 51, 1);
+  }
+
+ button:hover{
+    background-color: rgba(238, 88, 51, 0.868);
+  }
+
+  .demo:hover{
+    box-shadow: 8px 10px 8px 8px #888888ca;                                       
+
+  }
+  .Popular::before{
+    content: "";
+    width: 3.8em;
+    height: 0.1em;
+    background-color:rgba(238, 87, 51, 1);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+    border-radius: 5px;
+
+
+  }
